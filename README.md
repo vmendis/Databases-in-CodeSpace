@@ -12,6 +12,7 @@ Quick introduction to docker compose: https://github.com/docker/compose
 
 I use 'gh ssh' from a Mac to connect to my GitHub CodeSpaces for the conveniences. You can run the commands from the CodeSpace terminal available in your browser as well.
 
+Disclaimer: This is only a prrof-of-concept work. Use the solution for learning and testing. Do not store real life data, unencrypted passwords, production data etc.
 
 Working Solutions:
 
