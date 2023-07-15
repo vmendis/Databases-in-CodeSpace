@@ -24,7 +24,7 @@ MySQL + phpMyAdmin
        Username = citizix_user
        Password = An0thrS3crt
 
-        NOTE: The credentials are from the original author. User citizix_user does not have any privilages to create databases. Please create your own user with the necessary privilages to administer databases.
+        NOTE: The credentials are from the original author. User citizix_user does not have any privilages to create new databases, but can create tables within 'quotes' database. Please create your own user with the necessary privilages if the creation of new databases is required.
     $ docker-compose down
 
 
