@@ -16,10 +16,15 @@ Disclaimer: This is only a prrof-of-concept work. Use the solution for learning 
 
 Working Solutions:
 
-MySQL + phpMyAdmin
+MySQL + phpMyAdmin + adminer
+
+Either phpMyAdmin or adminer can be used to administer the databases. Choose the prefered option and comment out the other.
+
    $ cd MySQL-PhpMyAdmin
    $ docker-compose up
-   PhpMyAdmin is available on Port 5013. Simply click Port 5013 in the "Local Address" column in "PORTS" tab. A new tab will be opened.
+   PhpMyAdmin is available on Port 5013. 
+   Adminer is on port 8080
+   Simply click Port 5013/8080 in the "Local Address" column in "PORTS" tab. A new tab will be opened with corresponding GUI.
        Server = MySQL
        Username = citizix_user
        Password = An0thrS3crt
