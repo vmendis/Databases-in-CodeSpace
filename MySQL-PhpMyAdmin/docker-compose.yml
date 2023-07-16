@@ -19,7 +19,7 @@ services:
 
   phpmyadmin:
     image: phpmyadmin:5.2.0
-    container_name: PhpMyAdmin   
+    container_name: MySQL-PhpMyAdmin   
     restart: always
     ports:
       - 5013:80
@@ -28,7 +28,7 @@ services:
 
   adminer:
     image: adminer
-    container_name: adminer
+    container_name: MySQL-adminer
     restart: always
     ports:
       - 8080:8080
@@ -36,8 +36,8 @@ services:
 
   busybox:
     image: busybox
+    container_name: MySQL-busybox
     command: ["sh", "-ec", "while :; do echo '.'; sleep 5 ; done"]
-    container_name: busybox
         
 volumes:
   mysql-data:
